@@ -1,0 +1,36 @@
+.login-container {
+  background-color: #f9f9f9;
+  height: 100%;
+  .header {
+    background-color: transparent;
+    .container {
+      padding-top: 48px;
+      padding-bottom: 24px;
+      text-align: center;
+      .header-logo {}
+    }
+  }
+  .login-form {
+    width: 350px;
+    margin: 0 auto;
+    .login-form-header {
+      text-align: center;
+      height: 36px;
+      margin-bottom: 16px;
+      h1 {
+        line-height: 36px;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+    .login-form-body {
+      background-color: #ffffff;
+      padding: 40px;
+      border: 1px solid #d8dee2;
+      border-radius: 5px;
+      button {
+        width: 100%;
+      }
+    }
+  }
+}
